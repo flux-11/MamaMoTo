@@ -9,4 +9,6 @@ Magandang buhay mga binibini't ginoo, Kurt nga pala ang aking ngalan,
 isang lalaking matino at may ka-gwapuhan sa mukha, walang kabisayaan at nananatiling matino lamang 
 </p>
   
-
+## 🌟 About Me
+Biasa, Maganaka, Mayap- Atlung letrang miyayabe king lagyung Kurt. Diang nanung iutus mu, mamintu ku, basta para king istu.
+Mamyalung ku naman sports, pedi yang basketball, badminton ampo table tennis.
