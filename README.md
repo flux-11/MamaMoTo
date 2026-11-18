@@ -15,8 +15,8 @@ Mahilig ku naman mamyalung sports, pedi yang basketball, badminton ampo table te
 paksabyan daka pamu rin, eku mimwa. Marakal ku naman kaluguran, kasi biasa naku man makiyabe karing alwa. Ita napa, salamat.
 
 ### Area of Interest:
-- Artificial Intelligence / Machine Learning. 🤖
-- Software Engineering / Systems Design. 👨🏻‍💻
+- Online Games 🤖
+- Sports
 
 
 ---
