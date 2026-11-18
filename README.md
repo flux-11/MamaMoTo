@@ -11,4 +11,5 @@ isang lalaking matino at may ka-gwapuhan sa mukha, walang kabisayaan at nananati
   
 ## 🌟 About Me
 Biasa, Maganaka, Mayap- Atlung letrang miyayabe king lagyung Kurt. Diang nanung iutus mu, mamintu ku, basta para king istu.
-Mamyalung ku naman sports, pedi yang basketball, badminton ampo table tennis.
+Mahilig ku naman mamyalung ku naman sports, pedi yang basketball, badminton ampo table tennis. Istung pekisabyan muku pag mamyalung kung online games, 
+paksabyan daka pamu rin, eku mimwa. Marakal ku naman kaluguran, kasi biasa naku man makiyabe karing alwa. Itamu, salamat
