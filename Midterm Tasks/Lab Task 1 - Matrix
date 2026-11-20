@@ -1,0 +1,53 @@
+import java.util.Scanner;
+public class Matrix {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+
+            for(char loop ='y'; loop == 'y';)
+             {
+
+            int [][] elem = new int [3][3];
+
+            System.out.println("Input 9 elements: ");
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    elem [i][j] = input.nextInt(); 
+                }
+            }
+            System.out.println("\nHere are the Numbers and the required outputs: ");
+            System.out.println("==================================================");
+            System.out.printf("%44s %19s\n", "Row Sum", "Column Sum");
+
+            int diag1 = 0;
+            int diag2 = 0;
+
+                         //formula of column sum
+             //formula of column sum
+            //int col2 = elem [0][1] + elem [1][1] + elem [2][1];
+            //int col3 = elem [0][2] + elem [1][2] + elem [2][2];
+
+            for(int i =0; i < 3; i++)
+             {
+                int col = elem [0][i] + elem [1][i] + elem [2][i];
+                int row = elem [i][0] + elem[i][1] + elem[i][2]; //to add the 3 numbers of the row
+                diag1 = diag1 + elem[i][i]; // (0,0) (1,1) (2,2)
+                diag2 = diag2 + elem[i][2 - i]; // (0,2) (1,1) (2,0)
+        
+             System.out.printf("%16s %-6d %-6d %-6d %6d %12d\n", "", elem [i][0], elem[i][1], elem [i][2], row, col);
+            }
+             System.out.println("==================================================");
+
+             System.out.println("Diagonal sum 1: " + diag1);
+             System.out.println("Diagonal sum 2: " + diag2);
+
+             System.out.println("\nTry Again[y|n]: ");
+                loop = input.next().charAt(0);
+             }
+        }
+    }
+
+//Modify the code and display the column sum right beside the ROW sum of each rows
+
+    
