@@ -1,0 +1,70 @@
+import java.util.Scanner;
+
+public class GradeManagement {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        //create 3d arrays
+        // [section][student][subject]
+        double [][][] grades = new double[2][3][3];
+
+        String[] subjects = {"Java", "Database", "Networking"};
+
+        // input values nested for loops
+        
+        for(int s = 0; s < 2; s++){
+            System.out.println("=== Section" + (s + 1) + "===");
+            for(int st = 0; st < 3; st++) {
+                System.out.println("Student " + (st + 1) + ":");
+                for(int sub = 0; sub < 3; sub++) {
+                    System.out.println(" Enter grade for " + subjects[sub] + ": ");
+                    grades[s][st][sub] = input.nextDouble();
+                }
+            }
+            System.out.println();
+        }
+        // display grades
+        System.out.println("========== ALL GRADES ===========");
+        for(int s = 0; s < 2; s++){
+            System.out.println("Section " + (s + 1));
+            for(int st = 0; st < 3; st++){
+                System.out.println(" Student " +(st + 1));
+                for(int sub = 0; sub < 3; sub++) {
+                    System.out.println("    " + subjects[sub]);
+                }
+            }
+        }
+        System.out.println();
+
+        // avg of student
+        System.out.println("==== Average Per Student ====");
+        for(int s = 0; s < 2; s++){
+            for(int st = 0; st < 3; st++){
+                double total = 0;
+                for(int sub = 0; sub < 3; sub++){
+                    total = total + grades[s][st][sub];
+                }
+                double avg = total / 3;
+                System.out.printf("Section %d - Student %d: %.2f%n", (s + 1), (st + 1), avg);
+        }
+
+    }
+    System.out.println();
+
+    //avg grade per sec
+    System.out.println("==== Average Per Section ====");
+     for(int s = 0; s < 2; s++){
+        double secTotal = 0;
+            for(int st = 0; st < 3; st++){
+                for(int sub = 0; sub < 3; sub++){
+                   secTotal = secTotal + grades[s][st][sub];
+                }
+            }
+            double secAvg = secTotal / 9;
+            System.out.printf("Section %d: %.2f%n",  (s + 1), secAvg);
+        }
+        input.close();
+    }
+}
+
+
